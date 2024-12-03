@@ -65,10 +65,10 @@ After this, you will see a similar message in your terminal:
 ```bash
 VITE v5.2.12  ready in 237 ms
 
-➜  Local:   https://localhost:5173
-➜  Network: https://172.18.16.1:5173
-➜  Network: https://172.19.32.1:5173
-➜  Network: https://192.168.0.171:5173
+➜  Local:   https://localhost:5173/tma-test-project/
+➜  Network: https://172.18.16.1:5173/tma-test-project/
+➜  Network: https://172.19.32.1:5173/tma-test-project/
+➜  Network: https://192.168.0.171:5173/tma-test-project/
 ➜  press h + enter to show help
 ```
 
@@ -166,12 +166,12 @@ https://telegram-mini-apps.github.io/is-awesome
 
 To simplify the deployment process, this template includes a
 pre-configured [GitHub workflow](.github/workflows/github-pages-deploy.yml) that
-automatically deploys the project when changes are pushed to the `master`
+automatically deploys the project when changes are pushed to the `main`
 branch.
 
 To enable this workflow, create a new environment (or edit the existing one) in
 the GitHub repository settings and name it `github-pages`. Then, add the
-`master` branch to the list of deployment branches.
+`main` branch to the list of deployment branches.
 
 You can find the environment settings using this
 URL: `https://github.com/{username}/{repository}/settings/environments`.
